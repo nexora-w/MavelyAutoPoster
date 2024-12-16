@@ -11,8 +11,8 @@
 
 # production
 /build
-session_name.session
 settings.json
+session_name.session
 
 # misc
 npm-debug.log*
