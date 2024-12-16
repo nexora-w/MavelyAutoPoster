@@ -1,5 +1,6 @@
 # dependencies
 settings.json
+session_name.session-journal
 
 # testing
 /__pycache__
