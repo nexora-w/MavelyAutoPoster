@@ -1,0 +1,14 @@
+{
+  "api_id": "telegram api_id",
+  "api_hash": "telegram api_hash",
+  "phone_number": "your phone_number",
+  "monitored_channels": [
+    "@rebeldealz",
+    "@thefreebieguy",
+    "@extremewalmartclerance",
+    "@savewithmia"
+  ],
+  "post_channels": ["@lifeathalfprice"],
+  "email": "your mavely email",
+  "password": "mavely password"
+}
