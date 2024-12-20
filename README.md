@@ -1,4 +1,4 @@
-# Telegram Media and Link Converter Bot
+# Mavely Affiliate Link Generation and Posting Automation Bot
 
 This is a Telegram bot that monitors specified channels, processes messages to convert specific links to Mavely format, and reposts the updated messages (with or without media) to other channels.
 
@@ -27,10 +27,16 @@ This is a Telegram bot that monitors specified channels, processes messages to c
 
    ```bash
    pip install -r requirements.txt
-   ```
 
 2. Run the script:
 
    ```bash
    python bot.py
-   ```
+
+## How It Works
+
+   - Monitor Channels: The bot listens for new messages in the specified Telegram channels.
+   - Process Links: It scans each message and updates specific links to a predefined format.
+   - Handle Media: If a message contains media (e.g., images or videos), it processes them as well.
+   - Repost: After processing, the bot sends the updated message to the target channels.
+   - Clean Up: Any temporary media files used during processing are deleted to free up space.
